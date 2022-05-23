@@ -32,8 +32,11 @@ public class automacao {
         btn2.click();
         System.out.println("CLK2 - Volta para pagina de testes: " + driver.getTitle());
         
-         
-	    
+        WebElement btn3 = driver.findElement(By.xpath("//*[@id=\"mw-content-text\"]/div/div[3]/table/tbody/tr[1]/td[2]/a[2]"));
+        btn3.click();
+        System.out.println("CLK3 - Acessa a página de testes 2: " + driver.getTitle());
+        
+        
 	        
  
 
