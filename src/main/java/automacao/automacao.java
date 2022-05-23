@@ -16,6 +16,12 @@ public class automacao {
 	public static void main(String[] args) {
 		
 		
+		System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+		
+		
+		WebDriver driver = new ChromeDriver();
+
+       
 
     }
 }
