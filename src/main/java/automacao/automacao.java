@@ -20,6 +20,11 @@ public class automacao {
 		
 		
 		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://wiki.ixcsoft.com.br/index.php/IXCwiki:P%C3%A1gina_de_testes");
+	    System.out.println("O nome da página acessada é: " + driver.getTitle());
+	               
+	        
 
        
 
