@@ -40,10 +40,8 @@ public class automacao {
         btn4.click();
         System.out.println("CLK4 - Acessa a página Principal: " + driver.getTitle());
         
-         
-	    
-	        
- 
+        driver.quit();
+		System.out.println("Fechando o navegador");   
 
     }
 }
